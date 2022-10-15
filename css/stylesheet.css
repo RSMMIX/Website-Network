@@ -182,6 +182,11 @@ form {
     background: linear-gradient(0deg, #45f3ff, #45f3ff);
 }
 
-.imgn{
-    margin-top: -330px;
+.logo{
+    margin-top: -340px;
+    margin-left: 20px;
+}
+
+.logo img{
+    width: 150px;
 }
