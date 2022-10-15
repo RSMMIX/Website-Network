@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Signika:wght@300&display=swap');
 
-
 /* Css Reste*/
 * {
     padding: 0;
@@ -14,7 +13,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: linear-gradient(0deg, #45f3ff, #0db429);
+    background: linear-gradient(-90deg, #59fdfd, #00ff2a);
 }
 
 .box {
@@ -26,6 +25,17 @@ body {
     overflow: hidden;
 }
 
+.img{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.img img{
+    width: 50px;
+    margin-top: -360%;
+}
+
 .box::before {
     content: '';
     position: absolute;
@@ -34,7 +44,7 @@ body {
     width: 380px;
     height: 420px;
     transform-origin: bottom right;
-    background: linear-gradient(0deg, transparent, #45f3ff, #45f3ff);
+    background: linear-gradient(0deg, transparent, #ff0505, #ff0084);
     animation: animate 6s linear infinite;
 }
 
@@ -46,7 +56,7 @@ body {
     width: 380px;
     height: 420px;
     transform-origin: bottom right;
-    background: linear-gradient(0deg, transparent, #45f3ff, #45f3ff);
+    background: linear-gradient(0deg, transparent, #ff0505, #ff0084);
     animation: animate 6s linear infinite;
     animation-delay: -3s
 }
@@ -96,7 +106,7 @@ form {
 }
 
 .title {
-
+    margin: 45px;
     font-size: 35px;
     color: rgb(24, 164, 3);
     margin-bottom: 10px;
@@ -129,15 +139,15 @@ form {
     line-height: 1;
     font-weight: 600;
     font-size: 16px;
-    color: rgb(51, 51, 51);
+    color: rgb(0, 0, 0);
 }
 
 .input-field input::placeholder {
     font-size: 16px;
     opacity: 80%;
-    color: #332b2b;
-    
+    color: #000000;  
 }
+
 .links a{
     display: flex;
     padding: 8px;
@@ -157,7 +167,7 @@ form {
     height: 40px;
     border: none;
     border-radius: 49px;
-    background: linear-gradient(0deg, #45f3ff, #54ff3d);
+    background: linear-gradient(0deg, #00eeff, #2af00f);
     /*background-color: #090c11;*/
     color: azure;
     font-weight: 600;
@@ -169,5 +179,9 @@ form {
 
 .btn:hover {
     /*background-color: #1dc734;*/
-    background: linear-gradient(0deg, transparent, #45f3ff, #45f3ff);
+    background: linear-gradient(0deg, #45f3ff, #45f3ff);
+}
+
+.imgn{
+    margin-top: -330px;
 }
