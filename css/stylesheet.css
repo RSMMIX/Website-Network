@@ -144,9 +144,11 @@ form{
     font-size: 17px;
     opacity: 80%;
     color: #000000;
-    
 }
 
+.input-field img{
+    margin: 10px;
+}
 
 .links a{
     display: flex;
